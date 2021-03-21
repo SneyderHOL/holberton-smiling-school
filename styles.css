@@ -1,0 +1,158 @@
+/* SUMMARY
+1. GLOBAL
+2. LAYOUT
+3. SECTION
+*/
+
+
+/*** 1. GLOBAL ***/
+
+/* Variables
+============================= */
+
+:root {
+  --color-primary: #C271FF;
+  --font-family-holberton: 'holberton_school-icon';
+  --color-green: #82D24F;
+}
+
+/* Helpers
+============================= */
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.off-screen {
+  left: -100vw;
+  position: absolute;
+}
+
+.skip-link {
+  background: var(--color-black);
+  color: var(--color-white);
+  left: 0;
+  padding: .7rem;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  z-index: 10;
+  transform: translateY(-1rem);
+  transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+.skip-link:focus {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*** 2. LAYOUT ***/
+
+/* Layout
+============================= */
+
+.bg-purple {
+  background-color: var(--color-primary);
+}
+
+.button:hover,
+.button:active {
+  opacity: 0.9;
+}
+
+/* Header
+============================= */
+.home-header-bg {
+  background-image: url("assets/images/pic_1.jpg");
+}
+
+.pricing-header-bg {
+  background-image: url("assets/images/pic_2.jpg");
+}
+
+.courses-header-bg {
+  background-image: url("assets/images/pic_3.jpg");
+}
+
+/* Task 2
+============================= */
+
+/* #carouselQuotes .carousel-control-prev-icon {
+  background-image: url('assets/images/arrow_white_left.png');
+}
+
+#carouselQuotes .carousel-control-next-icon {
+  background-image: url('assets/images/arrow_white_right.png');
+} */
+
+
+/* Task 2
+============================= */
+
+#carouselTutorials .carousel-control-prev-icon {
+  background-image: url('assets/images/arrow_black_left.png');
+}
+
+#carouselTutorials .carousel-control-next-icon {
+  background-image: url('assets/images/arrow_black_right.png');
+}
+
+/* Task 3
+============================= */
+
+/* Task 4
+============================= */
+
+/* Task 6
+============================= */
+.bg-blue {
+  background-color: #071629;
+}
+
+footer .social-link {
+  font-family: var(--font-family-holberton);
+  color: white;
+}
+
+.facebook::before {
+  content: "\e908";
+}
+.twitter::before {
+  content: "\e90f";
+}
+.instagram::before {
+  content: "\e90a";
+}
+
+
+/* Task 8
+============================= */
+.check-icon {
+  font-family: var(--font-family-holberton);
+  color: var(--color-green);
+}
+.check-icon::before {
+  content: "\e905";
+}
+
+/* Task 9
+============================= */
+
+
+/* Task 13
+============================= */
+#search-icon {
+  font-family: var(--font-family-holberton);
+  color: white;
+}
+#search-icon::before {
+  content: "\e912";
+}
+
+/* Task 14
+============================= */
