@@ -143,7 +143,13 @@ body {
 .carousel .carousel-control-next-icon,
 .carousel .carousel-control-prev-icon {
   width: 25px;
-  height: 45px;
+  height: 65px;
+}
+.testimonial-avatar {
+  min-width: 148px;
+  min-height: 148px;
+  max-width: 160px;
+  max-height: 160px;
 }
 
 /* Task 2
