@@ -22,35 +22,37 @@
       </ul>
     </nav>
     <!-- Header -->
-    <header class="header home-header-bg text-white">
+    <header class="container-fluid home-header-bg text-white">
       <div class="container-md">
-        <div class="header-container d-flex flex-row justify-content-center justify-content-md-between pt-4 pb-5">
-          <!-- <input class="menu-btn" type="checkbox" id="menu-btn">
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -->
-          <div class="header-logo">
-            <a href="#">
-              <img src="assets/images/smile_off.png" class="mr-2" alt="Smile logo" width="40" height="30">
-              <img src="assets/images/logo.png" alt="SmileSchool logo" width="162" height="32">
+        <nav class="navbar navbar-expand-sm pt-4 px-0" id="a11y-primary-nav" tabindex="-1">
+          <div class="container-fluid px-0">
+            <button type="button" class="navbar-toggler p-0 m-0" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-menu-icon text-white"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/smile_off.png" class="align-top mr-3" alt="Smile logo" width="40" height="30">
+              <img src="assets/images/logo.png" class="align-top" alt="SmileSchool logo" width="162" height="32">
             </a>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="nav navbar-nav ml-auto font-weight-bold">
+                <li class="nav-item pl-4">
+                  <a href="#" class="nav-link text-uppercase text-center text-white">courses</a>
+                </li>
+                <li class="nav-item pl-4">
+                  <a href="#" class="nav-link text-uppercase text-center text-white">pricing</a>
+                </li>
+                <li class="nav-item pl-4">
+                  <a href="#" class="nav-link text-uppercase text-center text-white">login</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <nav class="navbar-menu" id="a11y-primary-nav" tabindex="-1">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white text-uppercase font-weight-bold pt-0">courses</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white text-uppercase font-weight-bold pt-0">pricing</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white text-uppercase font-weight-bold pt-0">login</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        </nav>
       </div>
       <!-- Hero section -->
-      <section class="section-hero hero-homepage pt-5">
-        <div class="container py-5">
+      <section class="section-hero hero-homepage py-5">
+        <div class="container">
           <div class="section-header py-4">
             <div class="d-flex align-items-center justify-content-center">
               <h1 class="section-title h1 font-weight-bold display-1 header-title mb-0">Get schooled</h1>
@@ -61,7 +63,7 @@
               <span class="text-uppercase font-weight-bold px-4">Laugh</span>
             </div>
             <div class="mt-2 pt-4 d-flex align-items-center justify-content-center">
-              <a class="btn bg-purple font-weight-bold px-4 py-2 rounded-pill text-uppercase" href="#" role="button">Register for free</a>
+              <a class="btn bg-purple font-weight-bold px-4 py-2 rounded-pill text-uppercase text-white" href="#" role="button">Register for free</a>
             </div>
           </div>
           <div class="section-body mt-5 pt-5">
@@ -69,11 +71,11 @@
               <div class="d-flex align-items-center justify-content-center mb-4">
                 <h2 class="font-weight-light"><span class="text-purple font-weight-bold">Learn</span> from the pros</h2>
               </div>
-              <div class="container pt-5">
+              <div class="container pt-5 px-0 px-sm-3">
                 <div class="pros row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center">
-                  <div class="col d-flex flex-column align-items-center justify-content-center">
+                  <div class="col pb-4 d-flex flex-column align-items-center justify-content-center">
                     <div>
-                      <img src="assets/images/profile_1.jpg" alt="Smile of the year 2018-2019" width="100" height="100" class="rounded-circle">
+                      <img src="assets/images/profile_1.jpg" alt="Smile of the year 2018-2019" width="150" height="150" class="rounded-circle">
                     </div>
                     <div>
                       <p class="text-center">
@@ -83,9 +85,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col d-flex flex-column align-items-center justify-content-center">
+                  <div class="col pb-4 d-flex flex-column align-items-center justify-content-center">
                     <div>
-                      <img src="assets/images/profile_2.jpg" alt="Smile of the year 2018-2019" width="100" height="100" class="rounded-circle">
+                      <img src="assets/images/profile_2.jpg" alt="Smile of the year 2018-2019" width="150" height="150" class="rounded-circle">
                     </div>
                     <div>
                       <p class="text-center">
@@ -95,9 +97,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col d-flex flex-column align-items-center justify-content-center">
+                  <div class="col pb-4 d-flex flex-column align-items-center justify-content-center">
                     <div>
-                      <img src="assets/images/profile_3.jpg" alt="Smile of the year 2018-2019" width="100" height="100" class="rounded-circle">
+                      <img src="assets/images/profile_3.jpg" alt="Smile of the year 2018-2019" width="150" height="150" class="rounded-circle">
                     </div>
                     <div>
                       <p class="text-center">
@@ -107,9 +109,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col d-flex flex-column align-items-center justify-content-center">
+                  <div class="col pb-4 d-flex flex-column align-items-center justify-content-center">
                     <div>
-                      <img src="assets/images/profile_4.jpg" alt="Smile of the year 2018-2019" width="100" height="100" class="rounded-circle">
+                      <img src="assets/images/profile_4.jpg" alt="Smile of the year 2018-2019" width="150" height="150" class="rounded-circle">
                     </div>
                     <div>
                       <p class="text-center">
