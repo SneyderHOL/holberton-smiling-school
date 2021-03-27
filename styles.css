@@ -244,13 +244,55 @@ footer .social-link {
   font-family: var(--font-family-coiny);
 }
 
-.filter-search {
-  background-color: var(--color-filters);
+.search-input {
+  color: var(--color-white);
+}
+.search-input:active {
+  color: black !important;
 }
 
 .search-input::placeholder {
   color: var(--color-white);
 }
+
+.dropdown-item:hover {
+  color: var(--color-primary);
+}
+
+.topic-filter:hover,
+.sortby-filter:hover {
+  text-decoration: none;
+}
+
+.custom-select {
+	background: none no-repeat right .75rem center/0.7rem;
+}
+
+.filter-search {
+  background-color: var(--color-filters);
+}
+
+.sort-sp::after,
+.topic-sp::after {
+  font-family: var(--font-family-holberton);
+	content: "\e901";
+  font-size: 9px;
+}
+/* .custom-select::after {
+  font-family: var(--font-family-holberton);
+	content: "\e901";
+  display: inline;
+  font-size: 9px;
+}
+
+.topic-filter::after {
+  margin-left: 15rem;
+}
+
+.sortby-filter::after {
+  margin-left: 65%;
+} */
+
 /* Task 14
 ============================= */
 
