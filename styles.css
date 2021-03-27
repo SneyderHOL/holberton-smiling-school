@@ -211,6 +211,18 @@ footer .social-link {
 .price {
   font-size: 40px;
 }
+
+.nav-item .active-effect {
+  border-bottom: 2px solid var(--color-white);
+}
+
+.btn {
+  font-size: .8rem
+}
+
+.plan {
+  font-size: .9rem
+}
 /* Task 9
 ============================= */
 
@@ -232,9 +244,7 @@ footer .social-link {
   font-family: var(--font-family-coiny);
 }
 
-.pricing-title {
-  font-size: 42px;
-}
+
 
 .filter-search {
   background-color: var(--color-filters);
@@ -264,11 +274,25 @@ footer .social-link {
 		display: inline-grid;
 		justify-items: center;
 	}
+  /* .pricing-header-title {
+    font-size: 1.2rem;
+  } */
+  .pricing-title {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 480px) {
   .header-title {
     font-size: 3.4rem;
   }
-  
+  .pricing-header-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .pricing-title {
+    font-size: 42px;
+  }
 }
