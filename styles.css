@@ -129,7 +129,7 @@ body {
 	font-size: 0.75rem;
 }
 
-/* Task 2
+/* Carousel of quotes
 ============================= */
 
 #carouselQuotes .carousel-control-prev-icon {
@@ -152,9 +152,6 @@ body {
   max-height: 160px;
 }
 
-/* Task 2
-============================= */
-
 #carouselTutorials .carousel-control-prev-icon,
 #carouselLatestVideos .carousel-control-prev-icon {
   background-image: url('assets/images/arrow_black_left.png');
@@ -172,10 +169,8 @@ body {
   width: 255px;
   height: 335px;
 } */
-/* Task 4
-============================= */
 
-/* Task 6
+/* Footer
 ============================= */
 .bg-blue {
   background-color: #071629;
@@ -197,8 +192,9 @@ footer .social-link {
   content: "\e90a";
 }
 
-/* Task 8
+/* Prices section
 ============================= */
+
 .check-icon {
   font-family: var(--font-family-holberton);
   color: var(--color-green);
@@ -223,19 +219,17 @@ footer .social-link {
 .plan {
   font-size: .9rem
 }
-/* Task 9
+
+/* Search section
 ============================= */
 
-/* Task 13
-============================= */
-
-#search-icon {
+span.input-group-text {
   font-family: var(--font-family-holberton);
   color: var(--color-white);
   background-color: var(--color-filters);
 }
 
-#search-icon::before {
+span.input-group-text::before {
   content: "\e912";
   font-size: 23px;
 }
@@ -278,27 +272,13 @@ footer .social-link {
 	content: "\e901";
   font-size: 9px;
 }
-/* .custom-select::after {
-  font-family: var(--font-family-holberton);
-	content: "\e901";
-  display: inline;
-  font-size: 9px;
-}
-
-.topic-filter::after {
-  margin-left: 15rem;
-}
-
-.sortby-filter::after {
-  margin-left: 65%;
-} */
-
-/* Task 14
-============================= */
 
 .videos-quantity {
   color: var(--color-videos-quantity);
 }
+
+/* Media queries
+============================= */
 
 @media (min-width: 576px) and (max-width: 767px) {
   .header-title {
@@ -313,19 +293,18 @@ footer .social-link {
   .header-title {
     font-size: 3.5rem;
   }
-  
+  .pricing-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 575px) {
   .navbar-brand {
 		position: relative;
 		margin: 0 auto;
 		display: inline-grid;
 		justify-items: center;
 	}
-  /* .pricing-header-title {
-    font-size: 1.2rem;
-  } */
-  .pricing-title {
-    font-size: 28px;
-  }
 }
 
 @media (max-width: 480px) {
