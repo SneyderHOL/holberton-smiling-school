@@ -22,36 +22,40 @@
       </ul>
     </nav>
     <!-- Header -->
-    <header class="header courses-header-bg text-white">
-      <div class="container pt-4 mt-2">
-        <div class="header-container d-flex flex-row justify-content-center justify-content-md-between">
-          <div class="header-logo">
-            <a href="#">
-              <img src="assets/images/smile_off.png" class="mr-2" alt="SmileSchool logo" width="40" height="30">
-              <img src="assets/images/logo.png" alt="SmileSchool logo" width="162" height="32">
+    <header class="container-fluid courses-header-bg text-white">
+      <div class="container-md">
+        <nav class="navbar navbar-expand-sm pt-4 px-0" id="a11y-primary-nav" tabindex="-1">
+          <div class="container-fluid px-0">
+            <button type="button" class="navbar-toggler p-0 m-0" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-menu-icon text-white"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/smile_off.png" class="align-top mr-3" alt="Smile logo" width="40" height="30">
+              <img src="assets/images/logo.png" class="align-top" alt="SmileSchool logo" width="162" height="32">
             </a>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="nav navbar-nav ml-auto font-weight-bold">
+                <li class="nav-item pl-4">
+                  <a href="#" class="nav-link text-uppercase text-center text-purple active-effect">courses</a>
+                </li>
+                <li class="nav-item pl-4">
+                  <a href="#" class="nav-link text-uppercase text-center text-white">pricing</a>
+                </li>
+                <li class="nav-item pl-4">
+                  <a href="#" class="nav-link text-uppercase text-center text-white">login</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <nav class="navbar-menu" id="a11y-primary-nav" tabindex="-1">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white text-uppercase font-weight-bold pt-0">courses</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white text-uppercase font-weight-bold pt-0">pricing</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white text-uppercase font-weight-bold pt-0">login</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        </nav>
       </div>
       <!-- Hero section -->
       <section class="section-hero hero-homepage pt-2">
         <div class="container pt-5">
           <div class="section-body py-4">
             <div class="section-inner-first-part mb-5 d-flex align-items-center justify-content-center">
-              <h1 class="section-title header-title smileschool-font">«Don't cry because it's over. <br><span class="text-purple font-weight-bold">Smile</span> because it happened.»</h1>
+              <h1 class="d-none d-sm-block section-title course-header-title smileschool-font">«Don't cry because it's over. <br><span class="text-purple font-weight-bold">Smile</span> because it happened.»</h1>
             </div>
           </div>
         </div>
@@ -63,16 +67,16 @@
         <div class="container-lg">
           <div class="text-white row row-cols-1 row-cols-md-2 row-cols-lg-3 py-4">
             <div class="col-lg-4 col-md-12 col-sm-12">
-              <label for="searchKeyword"><small class="font-weight-bold">Keywords</small></label>
+              <label for="searchKeyword"><small class="font-weight-bold text-uppercase">Keywords</small></label>
               <div class="input-group mb-3 border-left-0 border-right-0 border-top-0">
                 <div class="input-group-prepend border-left-0 border-right-0 border-top-0">
                   <span class="input-group-text border-left-0 border-right-0 border-top-0 py-0" id="search-icon"></span>
                 </div>
-                <input type="text" class="form-control border-left-0 border-right-0 border-top-0 filter-search" id="searchKeyword" placeholder="Search by keywords" aria-label="Search" aria-describedby="search-icon">
+                <input type="text" class="form-control border-left-0 border-right-0 border-top-0 filter-search search-input" id="searchKeyword" placeholder="Search by keywords" aria-label="Search" aria-describedby="search-icon">
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-              <label for="dropdownTopic"><small class="font-weight-bold">Topic</small></label>
+              <label for="dropdownTopic"><small class="font-weight-bold text-uppercase">Topic</small></label>
               <div class="dropdown mb-3 ">
                 <a class="custom-select filter-search text-white border-left-0 border-right-0 border-top-0" href="#" role="button" id="dropdownTopic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Novice
@@ -86,7 +90,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
-              <label for="inputSortby"><small class="font-weight-bold">Sort by</small></label>
+              <label for="inputSortby"><small class="font-weight-bold text-uppercase">Sort by</small></label>
               <div class="dropdown mb-3">
                 <a class="custom-select text-white filter-search border-left-0 border-right-0 border-top-0" href="#" role="button" id="dropdownSortby" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Most popular

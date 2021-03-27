@@ -244,12 +244,13 @@ footer .social-link {
   font-family: var(--font-family-coiny);
 }
 
-
-
 .filter-search {
   background-color: var(--color-filters);
 }
 
+.search-input::placeholder {
+  color: var(--color-white);
+}
 /* Task 14
 ============================= */
 
@@ -260,7 +261,10 @@ footer .social-link {
 @media (min-width: 576px) and (max-width: 767px) {
   .header-title {
     font-size: 5rem;
-  } 
+  }
+  .course-header-title {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 575px) {
